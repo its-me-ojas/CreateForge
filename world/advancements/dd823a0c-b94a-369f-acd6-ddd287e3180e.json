@@ -178,9 +178,202 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2024-10-13 23:30:10 +0530"
+      "0": "2024-10-13 23:30:10 +0530",
+      "1": "2024-10-13 23:44:37 +0530"
     },
-    "done": false
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/pink_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/orange_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/gray_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/yellow_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/cyan_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/light_blue_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/orange_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/black_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/magenta_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/lime_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/red_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/lime_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/white_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/green_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/magenta_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/yellow_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/red_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/black_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/pink_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/light_gray_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/brown_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/cyan_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/blue_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/gray_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/purple_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/brown_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/purple_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/blue_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/chair/white_chair_from_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/light_gray_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/green_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/floor_chair/light_blue_floor_chair_from_other_floor_chair": {
+    "criteria": {
+      "has_floor_chair": "2024-10-13 23:44:03 +0530"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
