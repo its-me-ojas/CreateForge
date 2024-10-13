@@ -1,76 +1,241 @@
-[14Oct2024 00:53:49.261] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[14Oct2024 00:53:49.271] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.11.1-zen1-1-zen
-[14Oct2024 00:53:51.096] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Oct2024 00:53:51.248] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/crestfallen/Minecraft/CreateForge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14Oct2024 00:53:51.962] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.11/fmlcore-1.20.1-47.3.11.jar is missing mods.toml file
-[14Oct2024 00:53:51.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.11/javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file
-[14Oct2024 00:53:51.971] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.11/lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file
-[14Oct2024 00:53:51.974] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.11/mclanguage-1.20.1-47.3.11.jar is missing mods.toml file
-[14Oct2024 00:53:52.381] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[14Oct2024 00:53:55.706] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Oct2024 00:53:55.914] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[14Oct2024 00:53:56.020] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[14Oct2024 00:53:58.713] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[14Oct2024 00:53:58.715] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
-[14Oct2024 00:53:59.080] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[14Oct2024 00:54:09.341] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
-[14Oct2024 00:54:09.398] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
-[14Oct2024 00:54:09.402] [modloading-worker-0/INFO] [creategoggles/]: cgblocks
-[14Oct2024 00:54:09.403] [modloading-worker-0/INFO] [creategoggles/]: cgitems
-[14Oct2024 00:54:09.407] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
-[14Oct2024 00:54:09.545] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.6 initializing! Commit hash: 15e0d2e30a55c9e758ed4bb09c9b911e5b5e42a0 Create version: 0.5.1h on platform: Forge
-[14Oct2024 00:54:09.965] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14Oct2024 00:54:10.049] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
-[14Oct2024 00:54:10.123] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
-[14Oct2024 00:54:10.236] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
-[14Oct2024 00:54:10.246] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
-[14Oct2024 00:54:10.248] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
-[14Oct2024 00:54:10.250] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:root / minecraft:trim_pattern]
-[14Oct2024 00:54:10.262] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[14Oct2024 00:54:10.411] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
-[14Oct2024 00:54:10.418] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
-[14Oct2024 00:54:10.418] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.11 Initialized
-[14Oct2024 00:54:10.558] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
-[14Oct2024 00:54:12.135] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[14Oct2024 00:54:12.736] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[14Oct2024 00:54:12.756] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 1 milliseconds
-[14Oct2024 00:54:12.772] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[14Oct2024 00:54:12.774] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[14Oct2024 00:54:12.776] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[14Oct2024 00:54:12.777] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[14Oct2024 00:54:12.779] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[14Oct2024 00:54:12.780] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[14Oct2024 00:54:12.782] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[14Oct2024 00:54:12.783] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[14Oct2024 00:54:12.785] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[14Oct2024 00:54:17.501] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.502] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:17.503] [main/INFO] [Create Deco/]: placard tooltip was null
-[14Oct2024 00:54:19.218] [modloading-worker-0/INFO] [creategoggles/]: Create Goggles Setup
-[14Oct2024 00:54:19.303] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[14Oct2024 00:54:28.795] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Oct2024 00:54:32.820] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[14Oct2024 00:54:32.821] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[14Oct2024 00:54:34.312] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Oct2024 01:08:23.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14Oct2024 01:08:23.155] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.11.1-zen1-1-zen
+[14Oct2024 01:08:23.731] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Oct2024 01:08:23.794] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/crestfallen/Minecraft/CreateForge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Oct2024 01:08:24.323] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.11/fmlcore-1.20.1-47.3.11.jar is missing mods.toml file
+[14Oct2024 01:08:24.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.11/javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[14Oct2024 01:08:24.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.11/lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[14Oct2024 01:08:24.329] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.11/mclanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[14Oct2024 01:08:24.669] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[14Oct2024 01:08:27.983] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Oct2024 01:08:28.149] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Oct2024 01:08:28.249] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 01:08:28.273] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 01:08:28.275] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 01:08:30.892] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[14Oct2024 01:08:30.892] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[14Oct2024 01:08:31.262] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[14Oct2024 01:08:41.763] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[14Oct2024 01:08:41.873] [modloading-worker-0/INFO] [betterstrongholds/]: Creating directory for additional Better Strongholds configuration at /home/crestfallen/Minecraft/CreateForge/config/betterstrongholds/forge-1_20
+[14Oct2024 01:08:42.003] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
+[14Oct2024 01:08:42.100] [modloading-worker-0/INFO] [betterdeserttemples/]: Creating directory for additional Better Desert Temples configuration at /home/crestfallen/Minecraft/CreateForge/config/betterdeserttemples/forge-1_20
+[14Oct2024 01:08:42.383] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[14Oct2024 01:08:42.432] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
+[14Oct2024 01:08:42.438] [modloading-worker-0/INFO] [creategoggles/]: cgblocks
+[14Oct2024 01:08:42.461] [modloading-worker-0/INFO] [creategoggles/]: cgitems
+[14Oct2024 01:08:42.639] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
+[14Oct2024 01:08:42.665] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14Oct2024 01:08:42.706] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.6 initializing! Commit hash: 15e0d2e30a55c9e758ed4bb09c9b911e5b5e42a0 Create version: 0.5.1h on platform: Forge
+[14Oct2024 01:08:42.733] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[14Oct2024 01:08:42.733] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[14Oct2024 01:08:42.734] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[14Oct2024 01:08:42.840] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[14Oct2024 01:08:42.885] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
+[14Oct2024 01:08:42.980] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
+[14Oct2024 01:08:43.014] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
+[14Oct2024 01:08:43.119] [modloading-worker-0/INFO] [betterfortresses/]: Creating directory for additional Better Nether Fortresses configuration at /home/crestfallen/Minecraft/CreateForge/config/betterfortresses/forge-1_20
+[14Oct2024 01:08:43.221] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[14Oct2024 01:08:43.222] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.11 Initialized
+[14Oct2024 01:08:45.069] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[14Oct2024 01:08:45.721] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[14Oct2024 01:08:45.744] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[14Oct2024 01:08:45.779] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[14Oct2024 01:08:45.780] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[14Oct2024 01:08:45.782] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[14Oct2024 01:08:45.783] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[14Oct2024 01:08:45.784] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[14Oct2024 01:08:45.785] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[14Oct2024 01:08:45.787] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[14Oct2024 01:08:45.788] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[14Oct2024 01:08:45.789] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[14Oct2024 01:08:48.447] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.448] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.448] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.449] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.449] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.449] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.449] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.450] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.450] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.450] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.450] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.450] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.451] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.451] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:48.451] [main/INFO] [Create Deco/]: placard tooltip was null
+[14Oct2024 01:08:49.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterdungeons-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General.Enable Skulls & Heads was corrected from null to its default, true. 
+[14Oct2024 01:08:49.182] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General.Enable Nether Blocks in Dungeons was corrected from null to its default, true. 
+[14Oct2024 01:08:49.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Zombie Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Zombie Dungeons.Zombie Dungeon Surface Entrance Staircase Max Length was corrected from null to its default, 20. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Max Banner Count was corrected from null to its default, 2. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Min Chest Count was corrected from null to its default, 1. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Max Chest Count was corrected from null to its default, 2. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Allow Ore Blocks in Corners was corrected from null to its default, true. 
+[14Oct2024 01:08:49.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Enable Small Nether Dungeons was corrected from null to its default, false. 
+[14Oct2024 01:08:49.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Wither Skeletons From Spawners Drop Wither Skeleton Skulls was corrected from null to its default, true. 
+[14Oct2024 01:08:49.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Blazes From Spawners Drop Blaze Rods was corrected from null to its default, true. 
+[14Oct2024 01:08:49.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Small Nether Dungeon Max Banner Count was corrected from null to its default, 2. 
+[14Oct2024 01:08:49.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterwitchhuts-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Witch Huts was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Witch Huts.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Witch Huts.General.Disable Vanilla Witch Huts was corrected from null to its default, true. 
+[14Oct2024 01:08:49.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betteroceanmonuments-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.202] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Ocean Monuments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.202] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Ocean Monuments.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.203] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Ocean Monuments.General.Disable Vanilla Ocean Monuments was corrected from null to its default, true. 
+[14Oct2024 01:08:49.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/YungsCaveBiomes-forge-1_20_1.toml is not correct. Correcting
+[14Oct2024 01:08:49.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Enable Sandstorms was corrected from null to its default, true. 
+[14Oct2024 01:08:49.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Min Sandstorm Duration (seconds) was corrected from null to its default, 120. 
+[14Oct2024 01:08:49.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Max Sandstorm Duration (seconds) was corrected from null to its default, 600. 
+[14Oct2024 01:08:49.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Min Time Between Sandstorms (seconds) was corrected from null to its default, 1200. 
+[14Oct2024 01:08:49.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Max Time Between Sandstorms (seconds) was corrected from null to its default, 2400. 
+[14Oct2024 01:08:49.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Cave Biomes.Lost Caves.Render Extra Particles During Sandstorms was corrected from null to its default, true. 
+[14Oct2024 01:08:49.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterdeserttemples-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Desert Temples was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Desert Temples.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Desert Temples.General.Disable Vanilla Pyramids was corrected from null to its default, true. 
+[14Oct2024 01:08:49.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Desert Temples.General.Apply Mining Fatigue was corrected from null to its default, true. 
+[14Oct2024 01:08:49.235] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterstrongholds-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.238] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.238] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.238] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds.General.Cobweb Spawn Rate (NORMAL) was corrected from null to its default, 0.1. 
+[14Oct2024 01:08:49.239] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds.General.Cobweb Spawn Rate (SPAWNER) was corrected from null to its default, 0.3. 
+[14Oct2024 01:08:49.239] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds.General.Torch Spawn Rate was corrected from null to its default, 0.1. 
+[14Oct2024 01:08:49.239] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Strongholds.General.Lantern Spawn Rate was corrected from null to its default, 0.2. 
+[14Oct2024 01:08:49.248] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterendisland-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.248] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better End Island was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.249] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better End Island.Resummoned Dragon Drops Egg was corrected from null to its default, false. 
+[14Oct2024 01:08:49.249] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better End Island.Spawn Vanilla Obsidian Platform was corrected from null to its default, false. 
+[14Oct2024 01:08:49.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterfortresses-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Nether Fortresses was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Nether Fortresses.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.253] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Nether Fortresses.General.Disable Vanilla Nether Fortresses was corrected from null to its default, true. 
+[14Oct2024 01:08:49.258] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/bettermineshafts-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Disable Vanilla Mineshafts was corrected from null to its default, true. 
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Minimum y-coordinate was corrected from null to its default, -55. 
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Maximum y-coordinate was corrected from null to its default, 30. 
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.259] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Enable Ore Deposits was corrected from null to its default, true. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Cobble Spawn Chance (Empty Deposit) was corrected from null to its default, 50. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Coal Spawn Chance was corrected from null to its default, 20. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Iron Spawn Chance was corrected from null to its default, 9. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Redstone Spawn Chance was corrected from null to its default, 7. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Gold Spawn Chance was corrected from null to its default, 7. 
+[14Oct2024 01:08:49.260] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Lapis Spawn Chance was corrected from null to its default, 3. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Emerald Spawn Chance was corrected from null to its default, 3. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Ore Deposits.Diamond Spawn Chance was corrected from null to its default, 1. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Lantern Spawn Rate was corrected from null to its default, 0.0067. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Torch Spawn Rate was corrected from null to its default, 0.02. 
+[14Oct2024 01:08:49.261] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Workstation Spawn Rate was corrected from null to its default, 0.025. 
+[14Oct2024 01:08:49.262] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Workstation Cellar Spawn Rate was corrected from null to its default, 0.25. 
+[14Oct2024 01:08:49.263] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Small Shaft Spawn Rate was corrected from null to its default, 0.07. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Cobweb Spawn Rate was corrected from null to its default, 0.15. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Small Shaft Chest Minecart Spawn Rate was corrected from null to its default, 0.00125. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Small Shaft TNT Minecart Spawn Rate was corrected from null to its default, 0.0025. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Main Shaft Chest Minecart Spawn Rate was corrected from null to its default, 0.01. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Main Shaft TNT Minecart Spawn Rate was corrected from null to its default, 0.0025. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Abandoned Miners' Outpost Spawn Chance was corrected from null to its default, 2. 
+[14Oct2024 01:08:49.264] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Mineshafts.Spawn Rates & More.Small Shaft Piece Chain Length was corrected from null to its default, 9. 
+[14Oct2024 01:08:49.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/betterjungletemples-forge-1_20.toml is not correct. Correcting
+[14Oct2024 01:08:49.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Jungle Temples was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Jungle Temples.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 01:08:49.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Jungle Temples.General.Disable Vanilla Jungle Temples was corrected from null to its default, true. 
+[14Oct2024 01:08:49.370] [modloading-worker-0/INFO] [creategoggles/]: Create Goggles Setup
+[14Oct2024 01:08:49.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[14Oct2024 01:08:49.465] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14Oct2024 01:08:49.465] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14Oct2024 01:08:49.465] [main/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[14Oct2024 01:08:49.758] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14Oct2024 01:08:49.809] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14Oct2024 01:08:49.817] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14Oct2024 01:08:58.195] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Oct2024 01:08:58.403] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:prickly_vines_plant Expected: 2106 Got: 2690
+[14Oct2024 01:08:58.404] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:prickly_vines Expected: 2107 Got: 2691
+[14Oct2024 01:08:58.404] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:potted_prickly_peach_cactus Expected: 2108 Got: 2692
+[14Oct2024 01:08:58.405] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:prickly_peach_cactus Expected: 2109 Got: 2693
+[14Oct2024 01:08:58.405] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:layered_red_sandstone Expected: 2110 Got: 2694
+[14Oct2024 01:08:58.405] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:layered_sandstone Expected: 2111 Got: 2695
+[14Oct2024 01:08:58.406] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:layered_ancient_sandstone Expected: 2112 Got: 2696
+[14Oct2024 01:08:58.406] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone Expected: 2113 Got: 2697
+[14Oct2024 01:08:58.407] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone_stairs Expected: 2114 Got: 2698
+[14Oct2024 01:08:58.407] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone_slab Expected: 2115 Got: 2699
+[14Oct2024 01:08:58.407] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:chiseled_ancient_sandstone Expected: 2116 Got: 2700
+[14Oct2024 01:08:58.407] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:cut_ancient_sandstone Expected: 2117 Got: 2701
+[14Oct2024 01:08:58.408] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:cut_ancient_sandstone_slab Expected: 2118 Got: 2702
+[14Oct2024 01:08:58.408] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:brittle_red_sandstone Expected: 2119 Got: 2703
+[14Oct2024 01:08:58.408] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:brittle_sandstone Expected: 2120 Got: 2704
+[14Oct2024 01:08:58.409] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:brittle_ancient_sandstone Expected: 2121 Got: 2705
+[14Oct2024 01:08:58.409] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone Expected: 2122 Got: 2706
+[14Oct2024 01:08:58.409] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_stairs Expected: 2123 Got: 2707
+[14Oct2024 01:08:58.410] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_slab Expected: 2124 Got: 2708
+[14Oct2024 01:08:58.410] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_wall Expected: 2125 Got: 2709
+[14Oct2024 01:08:58.410] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sand Expected: 2126 Got: 2710
+[14Oct2024 01:08:58.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:ice_sheet Expected: 2127 Got: 2711
+[14Oct2024 01:08:58.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:rare_ice Expected: 2128 Got: 2712
+[14Oct2024 01:08:58.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:frost_lily Expected: 2129 Got: 2713
+[14Oct2024 01:08:58.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: yungscavebiomes:icicle Expected: 2130 Got: 2714
+[14Oct2024 01:08:58.414] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:prickly_vines Expected: 2455 Got: 3776
+[14Oct2024 01:08:58.414] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:prickly_peach_cactus Expected: 2456 Got: 3777
+[14Oct2024 01:08:58.415] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:layered_red_sandstone Expected: 2457 Got: 3778
+[14Oct2024 01:08:58.415] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:layered_sandstone Expected: 2458 Got: 3779
+[14Oct2024 01:08:58.415] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:layered_ancient_sandstone Expected: 2459 Got: 3780
+[14Oct2024 01:08:58.416] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone Expected: 2460 Got: 3781
+[14Oct2024 01:08:58.416] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:chiseled_ancient_sandstone Expected: 2461 Got: 3782
+[14Oct2024 01:08:58.416] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:cut_ancient_sandstone Expected: 2462 Got: 3783
+[14Oct2024 01:08:58.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:brittle_red_sandstone Expected: 2463 Got: 3784
+[14Oct2024 01:08:58.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:brittle_sandstone Expected: 2464 Got: 3785
+[14Oct2024 01:08:58.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:brittle_ancient_sandstone Expected: 2465 Got: 3786
+[14Oct2024 01:08:58.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone Expected: 2466 Got: 3787
+[14Oct2024 01:08:58.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sand Expected: 2467 Got: 3788
+[14Oct2024 01:08:58.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ice_sheet Expected: 2468 Got: 3789
+[14Oct2024 01:08:58.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:rare_ice Expected: 2469 Got: 3790
+[14Oct2024 01:08:58.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:frost_lily Expected: 2470 Got: 3791
+[14Oct2024 01:08:58.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:icicle Expected: 2471 Got: 3792
+[14Oct2024 01:08:58.420] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone_stairs Expected: 2472 Got: 3793
+[14Oct2024 01:08:58.420] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:smooth_ancient_sandstone_slab Expected: 2473 Got: 3794
+[14Oct2024 01:08:58.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:cut_ancient_sandstone_slab Expected: 2474 Got: 3795
+[14Oct2024 01:08:58.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_stairs Expected: 2475 Got: 3796
+[14Oct2024 01:08:58.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_slab Expected: 2476 Got: 3797
+[14Oct2024 01:08:58.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ancient_sandstone_wall Expected: 2477 Got: 3798
+[14Oct2024 01:08:58.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:prickly_peach Expected: 2478 Got: 3799
+[14Oct2024 01:08:58.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:sand_snapper_spawn_egg Expected: 2479 Got: 3800
+[14Oct2024 01:08:58.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: yungscavebiomes:ice_cube_spawn_egg Expected: 2480 Got: 3801
+[14Oct2024 01:08:58.423] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.emerge Expected: 1551 Got: 1555
+[14Oct2024 01:08:58.424] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.happy Expected: 1552 Got: 1556
+[14Oct2024 01:08:58.424] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.panic Expected: 1553 Got: 1557
+[14Oct2024 01:08:58.424] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.hurt Expected: 1554 Got: 1558
+[14Oct2024 01:08:58.424] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.death Expected: 1555 Got: 1559
+[14Oct2024 01:08:58.425] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:entity.sand_snapper.digging Expected: 1556 Got: 1560
+[14Oct2024 01:08:58.425] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:ambient.lost_caves.sandstorm_loop Expected: 1557 Got: 1561
+[14Oct2024 01:08:58.425] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:ambient.lost_caves.loop Expected: 1558 Got: 1562
+[14Oct2024 01:08:58.426] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:music.overworld.lost_caves Expected: 1559 Got: 1563
+[14Oct2024 01:08:58.426] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:block.rare_ice.ambient Expected: 1560 Got: 1564
+[14Oct2024 01:08:58.426] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: yungscavebiomes:music.overworld.ice_caves Expected: 1561 Got: 1565
+[14Oct2024 01:08:58.427] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: yungscavebiomes:icicle Expected: 133 Got: 140
+[14Oct2024 01:08:58.427] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: yungscavebiomes:sand_snapper Expected: 134 Got: 141
+[14Oct2024 01:08:58.428] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: yungscavebiomes:ice_cube Expected: 135 Got: 142
+[14Oct2024 01:09:01.640] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[14Oct2024 01:09:01.641] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[14Oct2024 01:09:03.049] [main/ERROR] [betterendisland/]: key missing: bei_ExtraDragonFight in {BorderCenterX:0.0d,BorderCenterZ:0.0d,BorderDamagePerBlock:0.2d,BorderSafeZone:5.0d,BorderSize:5.9999968E7d,BorderSizeLerpTarget:5.9999968E7d,BorderSizeLerpTime:0L,BorderWarningBlocks:5.0d,BorderWarningTime:15.0d,CustomBossEvents:{},DataPacks:{Disabled:["bundle"],Enabled:["vanilla","mod:forge","mod:kuma_api","mod:sophisticatedcore","mod:sophisticatedbackpacks","mod:curios","mod:craftingtweaks","mod:balm","mod:jei","mod:flywheel","mod:create","mod:mixinextras","mod:create_dragon_lib","mod:createdeco","mod:architectury","mod:railways","mod:interiors","mod:creategoggles","mod:create_enchantment_industry","mod:create_structures","mod:spectrelib","mod:charmofundying","mod:farmersdelight","mod:kotlinforforge","mod:sliceanddice","mod:createfood","mod:ferritecore"]},DataVersion:3465,DayTime:55760L,Difficulty:1b,DifficultyLocked:0b,DragonFight:{DragonKilled:0b,Gateways:[I;18,7,8,11,0,15,17,4,13,14,2,5,10,12,1,16,3,19,6,9],NeedsStateScanning:1b,PreviouslyKilled:0b},GameRules:{announceAdvancements:"true",blockExplosionDropDecay:"true",commandBlockOutput:"true",commandModificationBlockLimit:"32768",disableElytraMovementCheck:"false",disableRaids:"false",doDaylightCycle:"true",doEntityDrops:"true",doFireTick:"true",doImmediateRespawn:"false",doInsomnia:"true",doLimitedCrafting:"false",doMobLoot:"true",doMobSpawning:"true",doPatrolSpawning:"true",doTileDrops:"true",doTraderSpawning:"true",doVinesSpread:"true",doWardenSpawning:"true",doWeatherCycle:"true",drowningDamage:"true",enableGoggles:"false",fallDamage:"true",fireDamage:"true",forgiveDeadPlayers:"true",freezeDamage:"true",globalSoundEvents:"true",keepInventory:"false",lavaSourceConversion:"false",logAdminCommands:"true",maxCommandChainLength:"65536",maxEntityCramming:"24",mobExplosionDropDecay:"true",mobGriefing:"true",naturalRegeneration:"true",playersSleepingPercentage:"100",randomTickSpeed:"3",reducedDebugInfo:"false",sendCommandFeedback:"true",showDeathMessages:"true",snowAccumulationHeight:"1",spawnRadius:"10",spectatorsGenerateChunks:"true",tntExplosionDropDecay:"false",universalAnger:"false",waterSourceConversion:"true"},GameType:0,LastPlayed:1728847480114L,LevelName:"world",ScheduledEvents:[],ServerBrands:["forge"],SpawnAngle:0.0f,SpawnX:112,SpawnY:66,SpawnZ:-128,Time:55760L,Version:{Id:3465,Name:"1.20.1",Series:"main",Snapshot:0b},WanderingTraderSpawnChance:75,WanderingTraderSpawnDelay:16800,WasModded:1b,WorldGenSettings:{bonus_chest:0b,dimensions:{"minecraft:overworld":{generator:{biome_source:{preset:"minecraft:overworld",type:"minecraft:multi_noise"},settings:"minecraft:overworld",type:"minecraft:noise"},type:"minecraft:overworld"},"minecraft:the_end":{generator:{biome_source:{type:"minecraft:the_end"},settings:"minecraft:end",type:"minecraft:noise"},type:"minecraft:the_end"},"minecraft:the_nether":{generator:{biome_source:{preset:"minecraft:nether",type:"minecraft:multi_noise"},settings:"minecraft:nether",type:"minecraft:noise"},type:"minecraft:the_nether"}},generate_features:1b,seed:2064364650111469960L},allowCommands:0b,clearWeatherTime:0,confirmedExperimentalSettings:0b,forgeLifecycle:"stable",hardcore:0b,initialized:1b,rainTime:131277,raining:0b,thunderTime:22859,thundering:0b,version:19133}
+[14Oct2024 01:09:03.897] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag creategoggles:modifier/goggle_incompatible as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
+[14Oct2024 01:09:03.910] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trim_materialss as it is missing following references: creategoggles:goggle_material (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
+[14Oct2024 01:09:04.398] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
@@ -79,15 +244,15 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Oct2024 00:54:34.314] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_structures] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/mod/create-structures/version/e9v4MIpX/updates/IAnP4np7/forge_updates.json
-[14Oct2024 00:54:34.388] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Oct2024 01:09:04.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_structures] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/mod/create-structures/version/e9v4MIpX/updates/IAnP4np7/forge_updates.json
+[14Oct2024 01:09:04.453] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 Caused by: java.net.ConnectException
 	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028) ~[java.net.http:?]
 	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
@@ -147,39 +312,40 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[14Oct2024 00:54:34.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Oct2024 00:54:35.018] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag creategoggles:modifier/goggle_incompatible as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
-[14Oct2024 00:54:35.029] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trim_materialss as it is missing following references: creategoggles:goggle_material (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
-[14Oct2024 00:54:36.519] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.536] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.539] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.661] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.672] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.674] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.692] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/cotton_candy_stick_from_mixing_heated_cane_syrup) has more item inputs (10) than supported (9).
-[14Oct2024 00:54:36.745] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.767] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.807] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
-[14Oct2024 00:54:36.875] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.883] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.890] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
-[14Oct2024 00:54:36.924] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
-[14Oct2024 00:54:36.930] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
-[14Oct2024 00:54:37.324] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5040 advancements
-[14Oct2024 00:54:37.339] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[14Oct2024 00:54:37.346] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[14Oct2024 00:54:41.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Oct2024 00:54:41.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Oct2024 00:54:41.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Oct2024 00:54:41.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Oct2024 00:54:41.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Oct2024 00:54:41.469] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Oct2024 00:54:41.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Oct2024 00:54:41.687] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Oct2024 00:54:41.688] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Oct2024 00:54:41.688] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Oct2024 00:54:41.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Oct2024 00:54:43.895] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+[14Oct2024 01:09:04.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Oct2024 01:09:05.060] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.080] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.083] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.157] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.166] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.169] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.188] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/cotton_candy_stick_from_mixing_heated_cane_syrup) has more item inputs (10) than supported (9).
+[14Oct2024 01:09:05.235] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.255] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.289] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[14Oct2024 01:09:05.351] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.357] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.362] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[14Oct2024 01:09:05.393] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
+[14Oct2024 01:09:05.396] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[14Oct2024 01:09:05.699] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5086 advancements
+[14Oct2024 01:09:05.711] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[14Oct2024 01:09:05.719] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[14Oct2024 01:09:08.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Oct2024 01:09:08.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Oct2024 01:09:08.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Oct2024 01:09:08.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Oct2024 01:09:09.001] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Oct2024 01:09:09.034] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Oct2024 01:09:09.123] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Oct2024 01:09:09.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Oct2024 01:09:09.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Oct2024 01:09:09.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Oct2024 01:09:09.232] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14Oct2024 01:09:09.651] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14Oct2024 01:09:09.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Oct2024 01:09:12.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Oct2024 01:09:13.243] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar%2375!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar%2375!/:?]
@@ -212,15 +378,31 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar%2375!/:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar%2375!/:?]
 	... 9 more
-[14Oct2024 00:54:46.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Oct2024 00:54:49.395] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Oct2024 01:09:17.544] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.588] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.612] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.632] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.651] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.662] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.670] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.679] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.684] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.690] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:17.906] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 01:09:18.406] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Oct2024 01:09:18.906] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[14Oct2024 01:09:19.347] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6442 ms
+[14Oct2024 01:09:19.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.207s)! For help, type "help"
+[14Oct2024 01:09:19.373] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Operation not permitted
+[14Oct2024 01:09:19.418] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Oct2024 01:09:19.464] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
@@ -229,43 +411,15 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Oct2024 00:54:49.404] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
-[14Oct2024 00:54:53.873] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:53.977] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.030] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.046] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.074] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.115] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.130] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.154] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.204] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.224] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.288] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.329] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.410] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.427] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.444] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.460] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.478] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:54.512] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:55.081] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Oct2024 00:54:55.504] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[14Oct2024 00:54:56.004] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[14Oct2024 00:54:56.504] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Oct2024 00:54:56.741] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10738 ms
-[14Oct2024 00:54:56.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.006s)! For help, type "help"
-[14Oct2024 00:54:56.773] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Operation not permitted
-[14Oct2024 00:54:56.829] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Oct2024 00:55:02.959] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tester[/127.0.0.1:60852] logged in with entity id 180 at (113.82679715200342, 69.0, -105.9222851699791)
-[14Oct2024 00:55:03.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester joined the game
-[14Oct2024 00:55:04.415] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Oct2024 01:09:19.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
+[14Oct2024 01:09:34.469] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23142!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23174!/:?]
 Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
@@ -274,12 +428,32 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Oct2024 00:55:45.412] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:stronghold took 931 ms
-[14Oct2024 00:55:51.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Teleported tester to 1296.500000, 106.922304, -943.500000]
-[14Oct2024 00:55:51.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3390ms or 67 ticks behind
-[14Oct2024 00:55:57.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Spectator Mode]
-[14Oct2024 00:56:16.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester has made the advancement [Eye Spy]
-[14Oct2024 00:56:20.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Creative Mode]
-[14Oct2024 00:58:49.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Oct2024 00:58:49.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Oct2024 00:58:49.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Oct2024 01:10:25.028] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43e5114[id=<null>,name=tester,properties={},legacy=false] (/127.0.0.1:55544) lost connection: Disconnected
+[14Oct2024 01:10:38.587] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tester[/127.0.0.1:53474] logged in with entity id 180 at (1269.5049052979282, -2.9357153040793906, -929.5059652616593)
+[14Oct2024 01:10:38.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester joined the game
+[14Oct2024 01:10:38.922] [Server thread/INFO] [Jade/]: Syncing config to tester (dd823a0c-b94a-369f-acd6-ddd287e3180e)
+[14Oct2024 01:10:41.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2736ms or 54 ticks behind
+[14Oct2024 01:11:20.531] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element betterstrongholds:stronghold took 1128 ms
+[14Oct2024 01:11:27.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Teleported tester to -1183.500000, -6.500000, -1007.500000]
+[14Oct2024 01:11:27.704] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4834ms or 96 ticks behind
+[14Oct2024 01:11:41.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Spectator Mode]
+[14Oct2024 01:12:35.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Creative Mode]
+[14Oct2024 01:12:46.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Spectator Mode]
+[14Oct2024 01:15:11.781] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element betterdungeons:zombie_dungeon took 100 ms
+[14Oct2024 01:15:23.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Teleported tester to -2303.500000, -4.182732, -2223.500000]
+[14Oct2024 01:15:23.812] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9392ms or 187 ticks behind
+[14Oct2024 01:15:24.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester has made the advancement [A Howling Discovery]
+[14Oct2024 01:15:43.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester has made the advancement [When in Rome]
+[14Oct2024 01:16:24.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [tester: Set own game mode to Creative Mode]
+[14Oct2024 01:17:05.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tester lost connection: Disconnected
+[14Oct2024 01:17:05.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester left the game
+[14Oct2024 01:17:08.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Oct2024 01:17:08.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Oct2024 01:17:08.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Oct2024 01:17:08.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Oct2024 01:17:22.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Oct2024 01:17:22.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Oct2024 01:17:22.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Oct2024 01:17:22.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Oct2024 01:17:22.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Oct2024 01:17:22.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
