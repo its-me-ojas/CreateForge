@@ -1,0 +1,305 @@
+[13Oct2024 23:27:34.392] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Oct2024 23:27:34.399] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.11.1-zen1-1-zen
+[13Oct2024 23:27:34.729] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Oct2024 23:27:34.843] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/crestfallen/Minecraft/CreateForge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Oct2024 23:27:35.272] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.11/fmlcore-1.20.1-47.3.11.jar is missing mods.toml file
+[13Oct2024 23:27:35.275] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.11/javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[13Oct2024 23:27:35.278] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.11/lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[13Oct2024 23:27:35.281] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/crestfallen/Minecraft/CreateForge/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.11/mclanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[13Oct2024 23:27:35.535] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[13Oct2024 23:27:37.302] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Oct2024 23:27:37.325] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Oct2024 23:27:45.320] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[13Oct2024 23:27:45.320] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.11 Initialized
+[13Oct2024 23:27:49.399] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/crestfallen/Minecraft/CreateForge/config/create-common.toml is not correct. Correcting
+[13Oct2024 23:27:49.401] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:27:49.401] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
+[13Oct2024 23:27:49.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Oct2024 23:27:53.308] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Oct2024 23:27:53.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: minecraft:milk Expected: 5 Got: 7
+[13Oct2024 23:27:53.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: minecraft:flowing_milk Expected: 6 Got: 8
+[13Oct2024 23:27:55.605] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
+[13Oct2024 23:27:55.605] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/crestfallen/Minecraft/CreateForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
+[13Oct2024 23:27:58.609] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[13Oct2024 23:27:58.803] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2311 advancements
+[13Oct2024 23:27:58.815] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[13Oct2024 23:27:58.822] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Oct2024 23:28:03.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Oct2024 23:28:03.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Oct2024 23:28:03.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Oct2024 23:28:03.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Oct2024 23:28:03.589] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Oct2024 23:28:03.687] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Oct2024 23:28:04.012] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Oct2024 23:28:04.013] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Oct2024 23:28:04.014] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Oct2024 23:28:04.014] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Oct2024 23:28:04.083] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/create-server.toml is not correct. Correcting
+[13Oct2024 23:28:04.085] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.086] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.089] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.090] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
+[13Oct2024 23:28:04.091] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
+[13Oct2024 23:28:04.092] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
+[13Oct2024 23:28:04.093] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
+[13Oct2024 23:28:04.095] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
+[13Oct2024 23:28:04.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
+[13Oct2024 23:28:04.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
+[13Oct2024 23:28:04.099] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
+[13Oct2024 23:28:04.101] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
+[13Oct2024 23:28:04.102] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
+[13Oct2024 23:28:04.103] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
+[13Oct2024 23:28:04.104] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
+[13Oct2024 23:28:04.105] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
+[13Oct2024 23:28:04.106] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
+[13Oct2024 23:28:04.109] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.110] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
+[13Oct2024 23:28:04.111] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.111] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
+[13Oct2024 23:28:04.112] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
+[13Oct2024 23:28:04.112] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
+[13Oct2024 23:28:04.113] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
+[13Oct2024 23:28:04.113] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
+[13Oct2024 23:28:04.114] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[13Oct2024 23:28:04.115] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
+[13Oct2024 23:28:04.116] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
+[13Oct2024 23:28:04.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
+[13Oct2024 23:28:04.117] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.118] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.119] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.119] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
+[13Oct2024 23:28:04.124] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
+[13Oct2024 23:28:04.124] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
+[13Oct2024 23:28:04.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
+[13Oct2024 23:28:04.127] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
+[13Oct2024 23:28:04.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
+[13Oct2024 23:28:04.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
+[13Oct2024 23:28:04.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
+[13Oct2024 23:28:04.132] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
+[13Oct2024 23:28:04.133] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
+[13Oct2024 23:28:04.135] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
+[13Oct2024 23:28:04.135] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
+[13Oct2024 23:28:04.136] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
+[13Oct2024 23:28:04.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
+[13Oct2024 23:28:04.139] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
+[13Oct2024 23:28:04.139] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
+[13Oct2024 23:28:04.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
+[13Oct2024 23:28:04.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
+[13Oct2024 23:28:04.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
+[13Oct2024 23:28:04.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.stabiliseStableContraptions was corrected from null to its default, false. 
+[13Oct2024 23:28:04.152] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
+[13Oct2024 23:28:04.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
+[13Oct2024 23:28:04.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
+[13Oct2024 23:28:04.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
+[13Oct2024 23:28:04.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
+[13Oct2024 23:28:04.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
+[13Oct2024 23:28:04.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
+[13Oct2024 23:28:04.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
+[13Oct2024 23:28:04.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
+[13Oct2024 23:28:04.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.205] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
+[13Oct2024 23:28:04.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.210] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.212] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
+[13Oct2024 23:28:04.213] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.213] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
+[13Oct2024 23:28:04.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
+[13Oct2024 23:28:04.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.230] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
+[13Oct2024 23:28:04.230] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
+[13Oct2024 23:28:04.231] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.232] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
+[13Oct2024 23:28:04.235] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
+[13Oct2024 23:28:04.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
+[13Oct2024 23:28:04.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
+[13Oct2024 23:28:04.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
+[13Oct2024 23:28:04.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
+[13Oct2024 23:28:04.240] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
+[13Oct2024 23:28:04.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
+[13Oct2024 23:28:04.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
+[13Oct2024 23:28:04.257] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
+[13Oct2024 23:28:04.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
+[13Oct2024 23:28:04.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
+[13Oct2024 23:28:04.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
+[13Oct2024 23:28:04.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
+[13Oct2024 23:28:04.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[13Oct2024 23:28:04.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[13Oct2024 23:28:04.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
+[13Oct2024 23:28:04.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
+[13Oct2024 23:28:04.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
+[13Oct2024 23:28:04.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
+[13Oct2024 23:28:04.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
+[13Oct2024 23:28:04.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
+[13Oct2024 23:28:04.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
+[13Oct2024 23:28:04.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
+[13Oct2024 23:28:04.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematics was corrected from null to its default, 10. 
+[13Oct2024 23:28:04.314] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxTotalSchematicSize was corrected from null to its default, 256. 
+[13Oct2024 23:28:04.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
+[13Oct2024 23:28:04.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
+[13Oct2024 23:28:04.323] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.323] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
+[13Oct2024 23:28:04.324] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonShotsPerGunpowder was corrected from null to its default, 400. 
+[13Oct2024 23:28:04.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.334] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
+[13Oct2024 23:28:04.335] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
+[13Oct2024 23:28:04.336] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
+[13Oct2024 23:28:04.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
+[13Oct2024 23:28:04.338] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
+[13Oct2024 23:28:04.339] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
+[13Oct2024 23:28:04.340] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
+[13Oct2024 23:28:04.348] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.349] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
+[13Oct2024 23:28:04.351] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
+[13Oct2024 23:28:04.351] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
+[13Oct2024 23:28:04.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
+[13Oct2024 23:28:04.354] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
+[13Oct2024 23:28:04.355] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.356] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
+[13Oct2024 23:28:04.357] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
+[13Oct2024 23:28:04.358] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
+[13Oct2024 23:28:04.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Oct2024 23:28:04.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
+[13Oct2024 23:28:04.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
+[13Oct2024 23:28:04.363] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
+[13Oct2024 23:28:04.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Oct2024 23:28:04.736] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[13Oct2024 23:28:04.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[13Oct2024 23:28:08.387] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar%2375!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar%2375!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.43.jar%2375!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.43.jar%2375!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar%2375!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar%2375!/:?]
+	... 9 more
+[13Oct2024 23:28:09.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Oct2024 23:28:17.136] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.226] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.322] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.418] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.634] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.658] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.689] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.766] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.773] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.778] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.781] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.782] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.786] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.787] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.794] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.796] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:17.918] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:18.418] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Oct2024 23:28:18.918] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[13Oct2024 23:28:19.420] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[13Oct2024 23:28:19.753] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23116!/:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[13Oct2024 23:28:19.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[13Oct2024 23:28:20.148] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10730 ms
+[13Oct2024 23:28:20.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.097s)! For help, type "help"
+[13Oct2024 23:28:20.172] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Operation not permitted
+[13Oct2024 23:28:20.206] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Oct2024 23:29:45.199] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tester[/127.0.0.1:33038] logged in with entity id 180 at (116.62328225210425, 69.0, -109.72412204419756)
+[13Oct2024 23:29:45.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester joined the game
+[13Oct2024 23:30:45.765] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tester lost connection: Disconnected
+[13Oct2024 23:30:45.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tester left the game
+[13Oct2024 23:30:50.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Oct2024 23:30:50.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Oct2024 23:30:50.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
