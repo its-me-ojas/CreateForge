@@ -1,0 +1,6 @@
+
+#Common Settings
+[common]
+	#Disable / enable any items here (disables their recipes)
+	enabledItems = ["sophisticatedbackpacks:advanced_tool_swapper_upgrade|true", "sophisticatedbackpacks:advanced_filter_upgrade|true", "sophisticatedbackpacks:anvil_upgrade|true", "sophisticatedbackpacks:battery_upgrade|true", "sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:gold_backpack|true", "sophisticatedbackpacks:copper_backpack|true", "sophisticatedbackpacks:advanced_deposit_upgrade|true", "sophisticatedbackpacks:iron_backpack|true", "sophisticatedbackpacks:advanced_void_upgrade|true"]
+
